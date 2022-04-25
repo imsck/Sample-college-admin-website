@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./S-T_css/teacherAdd.css">
+    <title>Add New Teacher</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <h1 class="mainlogo"><a href="./home.html">DBATU</a></h1>
+           
+         <ul class="options">
+            <li class="option"><a href="./student1.html">Student Section</a> </li>
+            <li class="option"><a href="./teacher1.html">Teacher Section</a> </li>
+        </ul>
+    </nav>
+    </header>
+
+    
+    <form action="">
+        <h1>Add Teacher</h1>
+        <div class="addForm">
+        <label for="teacherName">Full Name</label><br>
+        <input type="text" id="teacherName"><br><br>
+
+        <label for="teacherEmail">Email Id</label><br>
+        <input type="text" id="teacherEmail"><br><br>
+
+        <label for="teacherPhone">Phone Number</label><br>
+        <input type="text" id="teacherPhone"><br><br>
+
+        <label for="texherDesignation">Designation</label><br>
+        <input type="text" id="teacherDesignation"><br><br>
+
+        <label for="teacherGender">Gender:  </label><br>
+        <label for="teacherGender">Male</label>
+        <input type="radio" id="teacherGender" name="genderRadio">
+        <label for="teacherGender">Female</label>
+        <input type="radio" id="teacherGender" name="genderRadio">
+        <label for="teacherGender">Other</label>
+        <input type="radio" id="teacherGender" name="genderRadio">
+        <br><br>
+
+        <label for="teacherExpertise">Expertise</label><br>
+        <input type="text" id="teacherExpertise"><br><br>
+
+        <label for="teaxherExperience">Experience</label><br>
+        <input type="text" id="teacherExperience"><br><br>
+
+        <label for="teacherAge">Age: </label>
+        <select name="teacherAge" id="teacherAge">
+            <option value="select">Select</option>
+            <option value="25-35">25 - 35</option>
+            <option value="35-45">35 - 45</option>
+            <option value="45-55">45 - 55</option>
+            <option value="55-65">55 - 65</option>
+            <option value="65-75">65- 75</option>
+        </select>
+        <br><br>
+
+        <label for="dateOfJoining">Date of joining in current organization: </label>
+        <input type="date">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+    <div class="home">
+        <a href="./home.html">Home</a>
+    </div> 
+
+</body>
+</html>
